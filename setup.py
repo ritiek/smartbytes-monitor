@@ -24,7 +24,6 @@ setup(name='smartbytes-monitor',
       download_url='https://github.com/ritiek/smartbytes-monitor/archive/v' + smartbytes.__version__ + '.tar.gz',
       classifiers=[],
       install_requires=[
-            'requests',
             'BeautifulSoup4',
       ]
 )

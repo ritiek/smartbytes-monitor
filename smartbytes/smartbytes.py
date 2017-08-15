@@ -1,12 +1,17 @@
 #!/usr/bin/env python
 
-import requests
 from bs4 import BeautifulSoup
+
+try:
+    import urllib2
+except ImportError:
+    import urllib.request as urllib2
 
 
 def parse_url(url):
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'html.parser')
+    response = urllib2.urlopen(url)
+    soup = BeautifulSoup(response.read(), 'html.parser')
+    response.close()
     return soup
 
 
