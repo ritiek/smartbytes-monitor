@@ -1,32 +1,38 @@
-# smartbytes-monitor
+smartbytes-monitor
+==================
 
-Python package to monitor your network stats like remaining data, days left, etc.
+Python package to monitor your network stats like remaining data, days
+left, etc.
 
-## Installaion
+Installation
+------------
 
-```
-sudo pip install smartbytes-monitor
-```
+::
+
+    sudo pip install smartbytes-monitor
 
 or if you like to live on the bleeding edge:
 
-```
-sudo python setup.py install
-```
+::
 
-## Usage:
+    sudo python setup.py install
 
-Just launch the command `smartbytes` and it will tell you about your plan information.
+Usage
+-----
 
-```
-$ smartbytes
+Just launch the command ``smartbytes`` and it will tell you about your
+plan information.
 
-Total data : 30.0 GB
-Data left  : 2.6 GB
-Days left  : 1 day(s)
-DSL number : 0172xxxxxxx:_dsl
-```
+::
 
-## License
+    $ smartbytes
 
-`The MIT License`
+    Total data : 30.0 GB
+    Data left  : 2.6 GB
+    Days left  : 1 day(s)
+    DSL number : 0172xxxxxxx:_dsl
+
+License
+-------
+
+``The MIT License``
