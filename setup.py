@@ -8,7 +8,7 @@ with open("README.rst", "r") as f:
 
 setup(name='smartbytes-monitor',
       version=smartbytes.__version__,
-      description=' Python package to monitor your network stats like remaining data, days left, etc',
+      description=' Python package to monitor your airtel network stats like remaining data, days left, etc',
       long_description=long_description,
       author='Ritiek Malhotra',
       author_email='ritiekmalhotra123@gmail.com',
