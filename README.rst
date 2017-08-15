@@ -9,13 +9,13 @@ Installation
 
 ::
 
-    sudo pip install smartbytes-monitor
+    pip install smartbytes-monitor
 
 or if you like to live on the bleeding edge:
 
 ::
 
-    sudo python setup.py install
+    python setup.py install
 
 Usage
 -----
