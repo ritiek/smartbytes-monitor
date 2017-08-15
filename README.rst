@@ -1,7 +1,7 @@
 smartbytes-monitor
 ==================
 
-Python package to monitor your airtel network stats like remaining data, days
+Python package to monitor your Airtel broadband network stats like remaining data, days
 left, etc.
 
 Installation
@@ -21,7 +21,7 @@ Usage
 -----
 
 Just launch the command ``smartbytes`` and it will tell you about your
-plan information.
+broadband plan information.
 
 ::
 
