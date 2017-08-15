@@ -26,11 +26,12 @@ broadband plan information.
 ::
 
     $ smartbytes
-
+    =============================
     Total data : 30.0 GB
     Data left  : 2.6 GB
     Days left  : 1 day(s)
     DSL number : 0172xxxxxxx:_dsl
+    =============================
 
 License
 -------
