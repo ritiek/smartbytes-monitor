@@ -1,0 +1,6 @@
+*.pyc
+__pycache__/
+.cache/
+smartbytes_monitor.egg-info/
+build/
+dist/
