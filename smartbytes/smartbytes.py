@@ -22,8 +22,8 @@ class _ExtractInformation:
 
 def smartbytes():
     soup = _parse_url('http://122.160.230.125:8080/planupdate/')
-    smartbytes  = _ExtractInformation(soup)
-    return smartbytes
+    airtel = _ExtractInformation(soup)
+    return airtel
 
 
 def _parse_url(url):
@@ -34,12 +34,12 @@ def _parse_url(url):
 
 
 def _command_line():
-    smartbytes = smartbytes()
+    airtel = smartbytes()
     print('=============================')
-    print('Total data : ' + smartbytes.data_total)
-    print('Data left  : ' + smartbytes.data_left)
-    print('Days left  : ' + smartbytes.days_left)
-    print('DSL number : ' + smartbytes.dsl_number)
+    print('Total data : ' + airtel.data_total)
+    print('Data left  : ' + airtel.data_left)
+    print('Days left  : ' + airtel.days_left)
+    print('DSL number : ' + airtel.dsl_number)
     print('=============================')
 
 
