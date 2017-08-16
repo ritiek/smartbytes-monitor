@@ -25,12 +25,12 @@ def extract_info(soup):
 def command_line():
     soup = parse_url('http://122.160.230.125:8080/planupdate/')
     data_total, data_left, days_left, dsl_number  = extract_info(soup)
-
+    print('=============================')
     print('Total data : ' + data_total)
     print('Data left  : ' + data_left)
     print('Days left  : ' + days_left)
     print('DSL number : ' + dsl_number)
-
+    print('=============================')
 
 if __name__ == '__main__':
 
