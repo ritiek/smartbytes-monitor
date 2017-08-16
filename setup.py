@@ -15,7 +15,7 @@ setup(name='smartbytes-monitor',
       packages = find_packages(),
       entry_points={
             'console_scripts': [
-                  'smartbytes = smartbytes.smartbytes:command_line',
+                  'smartbytes = smartbytes.smartbytes:_command_line',
             ]
       },
       url='https://www.github.com/ritiek/smartbytes-monitor',
