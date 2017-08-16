@@ -38,13 +38,13 @@ This tool can also used as a library:
 ::
     >>> import smartbytes
     >>> airtel = smartbytes.smartbytes()
-    >>> print(airtel.data_total)
+    >>> airtel.data_total
     u'30.0 GB'
-    >>> print(airtel.data_left)
+    >>> airtel.data_left
     u'2.6 GB'
-    >>> print(airtel.days_left)
+    >>> airtel.days_left
     u'1 day(s)'
-    >>> print(airtel.dsl_number)
+    >>> airtel.dsl_number
     u'0172xxxxxxx:_dsl'
 
 License
