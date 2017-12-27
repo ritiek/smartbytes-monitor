@@ -35,7 +35,7 @@ broadband plan information.
     
 This tool can also used as a library:
 
-::
+.. code:: python
 
     >>> import smartbytes
     >>> airtel = smartbytes.smartbytes()
